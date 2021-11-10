@@ -11,7 +11,7 @@ bool Line::init(Point start, Point end)
 	if (&start == nullptr || &end == nullptr) return false;
 	this->startPoint = start;
 	this->endPoint = end;
-
+	
 	return true;
 }
 
